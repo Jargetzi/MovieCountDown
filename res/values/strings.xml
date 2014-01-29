@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movie Count Down</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="prev_button">Prev</string>
+    <string name="next_button">Next</string>
+    <string name="activity_movie_information_display">Movie Info</string>
+    <string name="title_activity_movie_information_display">Movie Information</string>
+    <string name="poster_content_description">Poster Image</string>
+    <string name="imdb">imdb</string>
+    <string name="title_activity_imdb">Movie Count Down imdb</string>
+    <string name="mark_button">Mark</string>
+    <string name="title_activity_watch_list">My Countdown List</string>
+    <string name="action_delete">Delete All</string>
+    <string name="action_nav">Nav</string>
+    <string name="watch_no_movies_title">Movie Watch List</string>
+    <string name="watch_no_movies_text">You have not marked any movies to watch.
+         If you find a movie you like, mark it.</string>
+    <string name="unmark_button">Unmark</string>
+    <string name="title_activity_watched_movie_info_display">Movie Info</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moviecountdown"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- min was 8 -->
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_test"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.moviecountdown.MainListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.moviecountdown.MovieInformationDisplayActivity"
+            android:label="@string/title_activity_movie_information_display">
+            
+        </activity>
+        <activity
+            android:name="com.example.moviecountdown.ImdbActivity"
+            android:label="@string/title_activity_imdb" >
+        </activity>
+        <activity
+            android:name="com.example.moviecountdown.WatchListActivity"
+            android:label="@string/title_activity_watch_list">
+        </activity>
+        
+    </application>
+
+</manifest>

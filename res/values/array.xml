@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actions">
+        <item>Upcoming Movies</item>
+	    <item>My Watch List</item>
+	</string-array>
+	<string-array name="watch_actions">
+	    <item>My Watch List</item>
+	    <item>Upcoming Movies</item>
+	</string-array>
+	<string-array name="movie_info_actions">
+	    <item>Movie Information</item>
+	    <item>My Watch List</item>
+	    <item>Upcoming Movies</item>
+	</string-array>
+</resources>
